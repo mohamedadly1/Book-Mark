@@ -1,0 +1,132 @@
+#head1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-top: 40px;
+    /* z-index: 1000; */
+    position: relative;
+    bottom: 50px;
+     
+}
+
+.back{
+    background-color: #FEBE2E;
+    height: 20px;
+    width: 270px;
+    position: relative;
+    top: 50px;
+}
+body{
+    background-color: #F7ECDE;
+}
+
+.all{
+    margin-top: 30px;
+}
+
+#head1:hover #head1::after {
+    width:100%;
+}
+
+.dott{
+    
+    border-bottom: 2px dotted black;
+    width: 80%;
+}
+
+
+#head2{
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(15, 202, 146), rgb(12, 114, 43));
+    -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;}
+
+#logo1{
+color:rgb(234, 181, 111);
+
+}
+
+
+#logo2{
+    color:rgb(35, 191, 35);
+    }
+
+    #btn{
+        padding: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 5px;
+        margin-top: 15px;
+        border: none;
+        color: white;
+        background-color: #c74d2b;
+    }
+
+    #btn:hover{
+        background-color:#BB4120 ;
+    }
+
+  #del{
+    background-color: #D30820;
+    color: white;
+   
+  }
+
+  #vis{
+    background-color: #8A9E23 ;
+    color: white;
+  }
+
+  #layer{
+    background-color: rgba(0, 0, 0, 0.4);
+    
+  }
+
+  .circle1{
+    color: #F15F5D;
+  }
+
+  .circle2{
+    color: #FEBE2E;
+  }
+
+  .circle3{
+    color: #4DB748;
+  }
+
+  #arrow1{
+    
+    color: #BB4120;
+  }
+
+  #arrow2{
+    
+    color: #BB4120;
+  }
+  .xcursor{
+    cursor: pointer;
+
+  }
+
+  #sitename{
+  
+    outline: 4px solid orange ;
+  }
+
+  #siteurl{
+  
+    outline: 4px solid orange ;
+  }
+
+  .all:hover .back{
+    height: 40px;
+    transition:all 0.5s ease-in-out;
+   
+    
+  }
+
+
+  .all{
+    width: 280px;
+    
+    
+  }
