@@ -102,7 +102,7 @@ layer.classList.add("d-none")
 
    function validurl(){
     var regex1=  /^https:\/\/www\..*/
-    return regex1.test(siteurl.value);
+    return regex1.test('https://'+siteurl.value);
    }
 
    sitename.addEventListener("input",function(){
